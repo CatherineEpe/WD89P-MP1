@@ -1,0 +1,41 @@
+.nav-link{ 
+    color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 20px;
+    text-decoration: none;
+    transition: .5s;
+}
+.nav-link:hover{
+    color: rgb(97, 170, 146);
+}
+#offcanvasDarkNavbar{
+    width: 250px;
+}
+.btn{
+    background-color: rgb(97, 170, 146);
+    color: white;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+input{
+    margin: 0;
+}
+#input1{
+    font-size: small;
+}
+#icn1{
+    align-items: center;
+    margin-top: 5px;
+}
+#btn2{
+    background-color: rgb(8, 109, 76);
+    color: rgb(97, 170, 146);
+}
+#btn2:hover{
+    background-color: rgb(32, 51, 45);
+}
