@@ -12,94 +12,184 @@
     <link href="style.scss" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Caveat:wght@700&family=Concert+One&family=Fredericka+the+Great&family=Lobster&family=Noto+Sans+KR:wght@100&family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
-    <!-- -------------- Home Page ------------------------- -->
+    <!-- -------------- HOME PAGE ------------------------- -->
+    
+    <div class="container-fluid">
+        <nav class="navbar navbar-light sticky-top">
+            <div class="container-fluid">
+                <img src="logo.png" alt="Image" width="130px" id="img1">
 
-    <nav class="navbar navbar-dark bg-dark sticky-top">
-        <div class="container-fluid">
-            <img src="logo.png" alt="Image" height="35px" width="130px" id="img1">
+                <form class="d-flex mt-1" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="input1">
+                    <button class="btn" type="submit">Search</button>
+                </form>
 
-            <form class="d-flex mt-1" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="input1">
-                <button class="btn" type="submit">Search</button>
-            </form>
-
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Log in</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping" id="icn1"></i></a>
-                </li>
-            </ul>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"    data-bs-target="#offcanvasDarkNavbar"aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation" id="btn2">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
-                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <ul class="nav justify-content-center">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="sign-up.html" target="_self">Log in</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sign up or Log in</a>
-                    </li>
+                        <a class="nav-link" href="shop.html" target="_self">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gallery</a>
+                        <a class="nav-link" href="cart.html" target="_self"><i class="fa-solid fa-cart-shopping" id="icn1"></i></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Shop</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cart</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Events and Exhibitions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FAQs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Blogs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Terms and Conditions</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Privacy Policies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
-                    </li>
-                    
                 </ul>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"    data-bs-target="#offcanvasDarkNavbar"aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation" id="btn2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="home.html" target="_self">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html" target="_self">About</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sign-up.html" target="_self">Sign up or Log in</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html" target="_self">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html" target="_self">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html" target="_self">Cart</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html" target="_self">Events and Exhibitions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html" target="_self">FAQs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html" target="_self">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="terms.html" target="_self">Terms and Conditions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="policies.html" target="_self">Privacy Policies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="testimonials.html" target="_self">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html" target="_self">Contact Us</a>
+                        </li>
+                        
+                    </ul>
+
+
+                </div>
             </div>
-          </div>
-                
+                    
+            </div>
+        </nav>
+
+        <div class="container2">
+            <div class="container3">
+                <h2>Welcome to "Alampat ni Cath" Visual Arts Shop, where creativity finds its canvas!</h2>
+                <p>
+                    Immerse yourself in the world of Catherine, a local artist from the Philippines, and explore a diverse range of visual artworks. From vibrant acrylic paintings to intricate charcoal drawings, each piece is a testament to Catherine's artistic journey. Don't miss our special promotions - a chance to bring home a piece of art that speaks to your soul. Let the colors and strokes enchant you as you embark on an artistic adventure with us!
+                </p>
+
+                <a href="sign-up.html" target="_self"><button class="btn3" type="submit">Sign up</button></a>
+
+                <div class="container text-left " id="grid">
+                    <div class="row">
+                      <div class="col"><span>100+</span> <br> Clients</div>
+                      <div class="col"><span>150+</span> <br> Projects</div>
+                      <div class="col"><span>50+</span> <br> Partners</div>
+                      <div class="col"></div>
+                    </div>
+                  </div>
+            </div>
+
+            <div>
+                <img src="collage.png" class="collage" alt="Image" height="700px">
+            </div>
         </div>
-      </nav>
-      
+    </div>
 
+    <!-- ------------ FOOTER --------------------------- -->
+    <footer>
+        <div class="container text-left">
+            <div class="row row-cols-4">
+                <div class="col">
+                        <a href="contact-us.html" target="_self"><button class="btn3" type="submit">Contact Us</button></a>
+                    <div class="container text-center">
+                        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-6" id="icons">
+                            <div class="col">
+                                <a class="nav-link" href="#" target="_self"><i class="fa-brands fa-facebook" id="icn2"></i></a>
+                            </div>
+                            <div class="col">
+                                <a class="nav-link" href="#" target="_self"><i class="fa-brands fa-youtube" id="icn2"></i></a>
+                            </div>
+                            <div class="col">
+                                <a class="nav-link" href="#" target="_self"><i class="fa-brands fa-instagram" id="icn2"></i></a>
+                            </div>
+                            <div class="col">
+                                <a class="nav-link" href="#" target="_self"><i class="fa-brands fa-twitter" id="icn2"></i></a>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                
+                <div class="col">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item2">
+                            <a class="nav-link" href="faq.html" target="_self">FAQs</a>
+                        </li>
+                        <li class="nav-item2">
+                            <a class="nav-link" href="blog.html" target="_self">Blogs</a>
+                        </li>
+                        <li class="nav-item2">
+                            <a class="nav-link" href="terms.html" target="_self">Terms and Conditions</a>
+                        </li>
+                        <li class="nav-item2">
+                            <a class="nav-link" href="policies.html" target="_self">Privacy Policies</a>
+                        </li>
+                        <li class="nav-item2">
+                            <a class="nav-link" href="testimonials.html" target="_self">Testimonials</a>
+                        </li>
+                    </ul>
+                </div>
 
+                <div class="col">
+                    <a class="nav-link" href="#" target="_self"><i class="fa-solid fa-clock" id="icn3"></i></a>
+                    <p><span>Open Hours</span><br> Monday - Friday 8am - 5pm <br> Saturday & Sunday 9am - 5pm</p>
+
+                    <a class="nav-link" href="#" target="_self"><i class="fa-solid fa-location-dot" id="icn3"></i></a>
+                    <p><span>Address</span><br> Purok IV, Brgy. Valencia, <br> Ormoc City, Leyte, Philippines</p>
+                </div>
+
+                <div class="col">
+                    <a class="nav-link" href="#" target="_self"><i class="fa-solid fa-phone" id="icn3"></i></a>
+                    <p><span>Phone number</span><br> 0906-205-1375 (Globe) <br> 0985-238-4102 (TNT)</p>
+
+                    <a class="nav-link" href="#" target="_self"><i class="fa-solid fa-at" id="icn3"></i></a>
+                    <p><span>Email Address</span><br> simplycathstudio@gmail.com <br> catherineducalang@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 
