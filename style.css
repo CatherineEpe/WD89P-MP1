@@ -48,19 +48,17 @@ input{
 #btn2:hover{
     background-color: rgb(32, 51, 45);
 }
-.container2{
-    background-image: url(1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+#container{
+    background-color: rgb(24, 46, 39);
     display: flex;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
+    text-align: center;
     padding: 20px;
 }
 .container3{
     color: rgb(231, 246, 241);
     margin-left: 10%;
-    margin-bottom: 4%;
 }
 p{
     text-align: justify;
@@ -70,7 +68,7 @@ p{
     color: rgb(2, 39, 27);
     padding: 6px 30px;
     font-family: 'Patrick Hand', cursive;
-    margin-top: 10px;
+    margin-top: 20px;
     border-radius: 10px;
     cursor: pointer;
     transition: .5s;
@@ -79,24 +77,53 @@ p{
     background-color: transparent;
     color: rgb(183, 255, 231);
 }
-.container3 h2{
+.container p{
+    margin-top: 20px;
+}
+.container h2{
     font-family: 'Fredericka the Great', cursive;
 }
+.h2{
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    letter-spacing: 2px;
+}
 #grid{
-    color: rgb(231, 246, 241);
+    color: rgb(209, 255, 240);
     padding: 10px 0;
-    margin-top: 15px;
+    margin-top: 25px;
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: 3px;
 }
 span{
-    font-size: larger;
+    font-size: large;
     color: rgb(0, 215, 143);
 }
+#collage{
+    border-radius: 10px;
+    box-shadow: 60px;
+    margin-top: 5%;
+}
+#icn3{
+    font-size: 20px;
+}
+.intro{
+    font-size: 15px;
+}
+#icons{
+    font-size: 10px;
+}
+
+
 
 /* ------------------- Footer --------------------------- */
 
 footer{
     background-color: rgb(14, 26, 22);
     padding: 20px;
+}
+#footer{
+    display: inline-block;
 }
 #icn2{
     align-items: center;
@@ -110,8 +137,9 @@ footer{
 .nav-item2{
     margin-top: 2px;
 }
-.col p{
+.col2 p{
     color: white;
+    font-size: 10px;
 }
 .row{
     text-align: center;
@@ -120,4 +148,16 @@ footer{
 #icons{
     margin-left: 12%;
     margin-top: 8%;
+}
+.linklink{
+    font-size: small;
+}
+.social-link{
+    font-size: 10px;
+    text-align: left;
+}
+.footer-pages{
+    font-size: 13px;
+    text-align: left;
+    align-items: left;
 }
