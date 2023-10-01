@@ -15,8 +15,8 @@
     transition: .5s;
 }
 .container-fluid{
-    font-family: 'Patrick Hand', cursive;
-    letter-spacing: 1px;
+    font-family: 'Julee', cursive;
+    letter-spacing: 2px;
 }
 .nav-link:hover{
     color: rgb(76, 93, 88);
@@ -49,7 +49,8 @@ input{
     background-color: rgb(32, 51, 45);
 }
 #container{
-    background-color: rgb(24, 46, 39);
+    background-color: rgb(24, 36, 32);
+    color: rgb(221, 244, 236);
     display: flex;
     align-items: left;
     justify-content: space-between;
@@ -60,14 +61,12 @@ input{
     color: rgb(231, 246, 241);
     margin-left: 10%;
 }
-p{
-    text-align: justify;
-}
 .btn3{
     background-color: rgb(178, 255, 229);
     color: rgb(2, 39, 27);
     padding: 6px 30px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Julee', cursive;
+    letter-spacing: 2px;
     margin-top: 20px;
     border-radius: 10px;
     cursor: pointer;
@@ -80,7 +79,7 @@ p{
 .container p{
     margin-top: 20px;
 }
-.container h2{
+.col h2{
     font-family: 'Fredericka the Great', cursive;
 }
 .h2{
@@ -94,6 +93,7 @@ p{
     margin-top: 25px;
     font-family: 'Fredericka the Great', cursive;
     letter-spacing: 3px;
+    text-align: center;
 }
 span{
     font-size: 15px;
@@ -114,6 +114,47 @@ span{
     font-size: 10px;
 }
 
+/* --------------  Featured -------------------------- */
+
+.featured{
+    background-color: rgb(54, 75, 68);
+    color: rgb(208, 243, 231);
+    padding: 25px;
+}
+.testimonial-view-all{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.testimonial{
+    color: rgb(222, 247, 239);
+    font-family: 'Fredericka the Great', cursive;
+}
+.card{
+    background-color: rgb(26, 46, 39);
+    transition: .5s;
+}
+.card:hover{
+    transform: translateY(-20px);
+}
+.card-title{
+    color: rgb(239, 253, 248);
+    font-family: 'Fredericka the Great', cursive;
+}
+h5{
+    font-size: 20px;
+}
+small{
+    color: rgb(229, 250, 243);
+    font-family: 'Fredericka the Great', cursive;
+}
+.card-text{
+    font-family: 'Julee', cursive;
+    font-size: 10px;
+    color: rgb(227, 242, 237);
+}
+
 
 
 /* ------------------- Footer --------------------------- */
@@ -121,9 +162,6 @@ span{
 footer{
     background-color: rgb(14, 26, 22);
     padding: 20px;
-}
-#footer{
-    display: inline-block;
 }
 #icn2{
     align-items: center;
@@ -161,10 +199,14 @@ footer{
     text-align: left;
     align-items: center;
 }
+.footer-links{
+    font-size: 10px;
+}
 .form{
     font-size: 10px;
     size: 10px;
     color: rgb(62, 85, 77);
+    margin-top: 2px;
 }
 .newsletter{
     text-align: left;
@@ -193,4 +235,9 @@ footer{
     text-align: left;
     font-size: 12px;
     margin-top: 15px;
+    letter-spacing: 2px;
+}
+.footer-elements{
+    color: rgb(224, 255, 245);
+    font-size: 10px;
 }

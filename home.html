@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Caveat:wght@700&family=Concert+One&family=Fredericka+the+Great&family=Lobster&family=Noto+Sans+KR:wght@100&family=Press+Start+2P&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Caveat:wght@700&family=Concert+One&family=Fredericka+the+Great&family=Handlee&family=Julee&family=Lobster&family=Noto+Sans+KR:wght@100&family=Patrick+Hand&family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
@@ -25,7 +29,7 @@
     <div class="container-fluid">
         <nav class="navbar navbar-light sticky-top">
             <div class="container-fluid">
-                <img src="logo.png" alt="Image" width="130px" id="img1">
+                <img src="images/logo.png" alt="Image" width="130px" id="img1">
 
                 <form class="d-flex mt-1" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="input1">
@@ -48,10 +52,10 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"aria-labelledby="offcanvasDarkNavbarLabel">
                     <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
@@ -98,8 +102,8 @@
                     </ul>
 
 
+                    </div>
                 </div>
-            </div>
                     
             </div>
         </nav>
@@ -107,22 +111,22 @@
         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner carou">
                 <div class="carousel-item active" data-bs-interval="10000" id="carou">
-                    <img src="1.svg" class="d-block w-100" alt="Image">
+                    <img src="images/1.svg" class="d-block w-100" alt="Image">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000" id="carou">
-                    <img src="2.svg" class="d-block w-100" alt="Image">
+                    <img src="images/2.svg" class="d-block w-100" alt="Image">
                 </div>
                 <div class="carousel-item" id="carou">
-                    <img src="3.svg" class="d-block w-100" alt="Image">
+                    <img src="images/3.svg" class="d-block w-100" alt="Image">
                 </div>
                 <div class="carousel-item" id="carou">
-                    <img src="4.svg" class="d-block w-100" alt="Image">
+                    <img src="images/4.svg" class="d-block w-100" alt="Image">
                 </div>
                 <div class="carousel-item" id="carou">
-                    <img src="5.svg" class="d-block w-100" alt="Image">
+                    <img src="images/5.svg" class="d-block w-100" alt="Image">
                 </div>
                 <div class="carousel-item" id="carou">
-                    <img src="6.svg" class="d-block w-100" alt="Image">
+                    <img src="images/6.svg" class="d-block w-100" alt="Image">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -134,10 +138,8 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    
-        
-        <div class="container-fluid text-bg-dark" id="container">
-            <!-- Content here -->
+
+        <div class="container-fluid" id="container">
             <div class="container text-center">
                 <div class="row">
                     <div class="col">
@@ -148,48 +150,174 @@
                         <a href="sign-up.html" target="_self"><button class="btn3" type="submit">Sign up</button></a>
                         <div class="container text-left " id="grid">
                             <div class="row">
-                            <div class="col"><span>100+</span> <br> Clients</div>
-                            <div class="col"><span>150+</span> <br> Projects</div>
-                            <div class="col"><span>50+</span> <br> Partners</div>
-                            <div class="col"></div>
-                            <div class="col"></div>
-                            <div class="col"></div>
+                                <div class="col"><span>100+</span> <br> Clients</div>
+                                <div class="col"><span>150+</span> <br> Projects</div>
+                                <div class="col"><span>50+</span> <br> Partners</div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
-                        <img src="collage.svg" id="collage" alt="Image" height="380px">
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="container-fluid featured">
+
+            <div class="testimonial">
+                <h4>Featured Artworks</h4>
+            </div>
+
+            <div class="row row-cols-.5 row-cols-md-6 g-1">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/7.svg" class="card-img-top" alt="Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Kim Samuel Portrait</h5>
+                            <p class="card-text">This is a customize Color Pencil Portrait Drawing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/8.svg" class="card-img-top" alt="Images">
+                        <div class="card-body">
+                            <h5 class="card-title">My Portrait</h5>
+                            <p class="card-text">This is a customize Charcoal Portrait Drawing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/9.svg" class="card-img-top" alt="Images">
+                        <div class="card-body">
+                            <h5 class="card-title">Liza Soberano Portrait</h5>
+                            <p class="card-text">This is a Portrait of Liza Soberano using Charcoal on Vellum as medium.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/10.svg" class="card-img-top" alt="Images">
+                        <div class="card-body">
+                            <h5 class="card-title">Jesus Christ</h5>
+                            <p class="card-text">This is a Charcoal Portrait Painting of Jesus Christ.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/11.svg" class="card-img-top" alt="Images">
+                        <div class="card-body">
+                            <h5 class="card-title">Max the Husky</h5>
+                            <p class="card-text">This is a commission customized Charcoal Painting of a collector.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="images/12.svg" class="card-img-top" alt="Images">
+                        <div class="card-body">
+                            <h5 class="card-title">Baby Althius</h5>
+                            <p class="card-text">A commissioned portrait charcoal painting of my collector's baby.</p>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+
+            <div class="testimonial-view-all">
+                <a href="shop.html" target="_self" class="btn btn3">View All</a>
+            </div>
+        </div>
+
+
 
         <!-- --------------- FOOTER ---------------- -->
 
         <footer>
             <h2 class="h2">Contact Us</h2>
 
-            <div class="container">
-                <div class="container text-center">
-                    <div class="row">
-                      <div class="col">
-                            
-                            <div class="container text-center">
-                                <div class="row row-cols-4">
-                                    <div class="col">
-                                        <a class="nav-link" href="#" target="_self"><i class="fa-brands fa-facebook"></i></a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="nav-link" href="#" target="_self"><i class="fa-brands fa-youtube"></i></a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="nav-link" href="#" target="_self"><i class="fa-brands fa-instagram"></i></a>
-                                    </div>
-                                    <div class="col">
-                                        <a class="nav-link" href="#" target="_self"><i class="fa-brands fa-twitter"></i></a>
-                                    </div>
+            <div class="container text-center">
+                <div class="row row-cols-auto">
+                    <div class="col">
+                        <div class="container text-center">
+                            <div class="row row-cols-auto">
+                                <div class="col"><a class="nav-link" href="#" target="_self"><i class="fa-brands fa-facebook"></i></a></div>
+                                <div class="col"><a class="nav-link" href="#" target="_self"><i class="fa-brands fa-youtube"></i></a></div>
+                                <div class="col"><a class="nav-link" href="#" target="_self"><i class="fa-brands fa-instagram"></i></a></div>
+                                <div class="col"><a class="nav-link" href="#" target="_self"><i class="fa-brands fa-twitter"></i></a></div>
+                            </div>
+                            <div class="row row-cols-auto-center">
+                                <img src="images/footer.svg" alt="Image" width="70px" height="120px">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col footer-elements">
+                        <div class="container text-center">
+                            <div class="row row-cols-auto">
+                                <div class="col">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="home.html" target="_self">Home</a>
+                                        </li>
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="about.html" target="_self">About</a>
+                                        </li>
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="sign-up.html" target="_self">Sign up/Log in</a>
+                                        </li>
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="gallery.html" target="_self">Gallery</a>
+                                        </li>
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="shop.html" target="_self">Shop</a>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div class="col col2">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col footer-elements">
+                        <div class="container text-center">
+                            <div class="row row-cols-auto">
+                                <div class="col">
+                                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="faqs.html" target="_self">FAQs</a>
+                                        </li>
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="blogs.html" target="_self">Blogs</a>
+                                        </li>
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="terms.html" target="_self">Terms and Conditions</a>
+                                        </li>
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="policies.html" target="_self">Privacy Policies</a>
+                                        </li>
+                                        <li class="nav-item2">
+                                            <a class="nav-link footer-links" href="testimonials.html" target="_self">Testimonials</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container text-center footer-elements">
+                        <div class="row row-cols-auto">
+                            <div class="col">
+                                <p class="footer-pages"><span>Open Hours</span> <br> Monday - Friday 8am - 5pm <br> Saturday & Sunday 9am - 5pm<p>
+                                <p class="footer-pages"><span>Address</span> <br> Purok IV, Brgy. Valencia, <br> Ormoc City, Leyte, Philippines</p>
+                            </div>
+                            <div class="col">
+                                <p class="footer-pages"><span>Phone number</span> <br> 0906-205-1375 (Globe) <br> 0985-238-4102 (TNT)</p>
+                                <p class="footer-pages"><span>Email Address</span> <br> simplycathstudio@gmail.com <br> catherineducalang@gmail.com</p>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="col footer-elements">
+                        <div class="container text-center">
+                            <div class="row row-cols-auto">
+                                <div class="col">
                                     <h2 class="head-newsletter">Newsletter</h2>
                                     <p class="newsletter">Get the latest news and promotions from Alampat ni Cath. Subscribe to our Newsletter.</p>
                                     <form class="row gy-2 gx-3 align-items-center form">
@@ -203,49 +331,10 @@
                                     </form>
                                 </div>
                             </div>
-                      </div>
-
-                      <div class="col">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item2">
-                                    <a class="nav-link footer-pages" href="faqs.html" target="_self">FAQs</a>
-                                </li>
-                                <li class="nav-item2">
-                                    <a class="nav-link footer-pages" href="blogs.html" target="_self">Blogs</a>
-                                </li>
-                                <li class="nav-item2">
-                                    <a class="nav-link footer-pages" href="terms.html" target="_self">Terms and Conditions</a>
-                                </li>
-                                <li class="nav-item2">
-                                    <a class="nav-link footer-pages" href="policies.html" target="_self">Privacy Policies</a>
-                                </li>
-                                <li class="nav-item2">
-                                    <a class="nav-link footer-pages" href="testimonials.html" target="_self">Testimonials</a>
-                                </li>
-                            </ul>
-                      </div>
-
-                      <div class="col col2">
-                            <a class="nav-link" href="#" target="_self"><i class="fa-solid fa-clock"></i></a>
-                            <p class="footer-pages"><span>Open Hours</span> <br> Monday - Friday 8am - 5pm <br> Saturday & Sunday 9am - 5pm</p>
-        
-                            <a class="nav-link" href="#" target="_self"><i class="fa-solid fa-location-dot"></i></a>
-                            <p class="footer-pages"><span>Address</span> <br> Purok IV, Brgy. Valencia, <br> Ormoc City, Leyte, Philippines</p>
-                      </div>
-
-                      <div class="col col2">
-                            <a class="nav-link" href="#" target="_self"><i class="fa-solid fa-phone"></i></a>
-                            <p class="footer-pages"><span>Phone number</span> <br> 0906-205-1375 (Globe) <br> 0985-238-4102 (TNT)</p>
-        
-                            <a class="nav-link" href="#" target="_self"><i class="fa-solid fa-at"></i></a>
-                            <p class="footer-pages"><span>Email Address</span> <br> simplycathstudio@gmail.com <br> catherineducalang@gmail.com</p>
-                      </div>
-
+                        </div>
                     </div>
-
                 </div>
-
-            </div>
+              </div>
            
         </footer>
 
