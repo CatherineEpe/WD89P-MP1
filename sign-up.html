@@ -9,8 +9,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link href="style2.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style-sign-up.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,6 +19,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Caveat:wght@700&family=Concert+One&family=Fredericka+the+Great&family=Handlee&family=Julee&family=Lobster&family=Noto+Sans+KR:wght@100&family=Patrick+Hand&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caprasimo&family=Caveat:wght@700&family=Concert+One&family=Fredericka+the+Great&family=Handlee&family=Julee&family=Lobster&family=Noto+Sans+KR:wght@100&family=Patrick+Hand&family=Press+Start+2P&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -31,11 +35,6 @@
         <nav class="navbar navbar-light sticky-top">
             <div class="container-fluid">
                 <img src="images/logo.png" alt="Image" width="130px" id="img1">
-
-                <form class="d-flex mt-1" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="input1">
-                    <button class="btn" type="submit">Search</button>
-                </form>
 
                 <ul class="nav justify-content-center">
                     <li class="nav-item">
@@ -109,43 +108,66 @@
             </div>
         </nav>
 
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner carou">
-                <div class="carousel-item active" data-bs-interval="10000" id="carou">
-                    <img src="images/1.svg" class="d-block w-100" alt="Image">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000" id="carou">
-                    <img src="images/2.svg" class="d-block w-100" alt="Image">
-                </div>
-                <div class="carousel-item" id="carou">
-                    <img src="images/3.svg" class="d-block w-100" alt="Image">
-                </div>
-                <div class="carousel-item" id="carou">
-                    <img src="images/4.svg" class="d-block w-100" alt="Image">
-                </div>
-                <div class="carousel-item" id="carou">
-                    <img src="images/5.svg" class="d-block w-100" alt="Image">
-                </div>
-                <div class="carousel-item" id="carou">
-                    <img src="images/6.svg" class="d-block w-100" alt="Image">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-
         <!-- ---------- Form --------------- -->
 
         <div class="log-in">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card2">
+                        <div class="card-body2">
+                            <form class="row g-1">
+                                <h5 class="card-title2">Log in</h5>
+                                <div class="col-md-10">
+                                    <label for="inputEmail4" class="form-label">Username or Email Address</label>
+                                    <input type="email" placeholder="Enter your email" class="form-control" required id="inputEmail4">
+                
+                                    <label for="inputPassword4" class="form-label">Password</label>
+                                    <input type="password" placeholder="Enter your password"class="form-control" required id="inputPassword4">
+                    
+                                    <div class="col-md-10">
+                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                        <label class="form-check-label" for="flexCheckDefault">Remember Me</label>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <button type="submit" class="btn btn5">Log in</button>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <a class="nav-link" href="#" target="_self" id="forgot">Forgot password?</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card2">
+                        <div class="card-body2">
+                            <form class="row g-1">
+                                <h5 class="card-title2">Register</h5>
+                                <div class="col-md-10">
+                                    <label for="inputEmail4" class="form-label">Username or Email Address</label>
+                                    <input type="email" placeholder="Enter your email" class="form-control" required id="inputEmail5">
+                
+                                    <label for="inputPassword4" class="form-label">Password</label>
+                                    <input type="password" placeholder="Enter your password"class="form-control" required id="inputPassword5">
+                    
+                                    <div class="col-md-10">
+                                        <p> Your personal data will be used to support your experience throughout this website to manage access to your account, and for other purposes described in our <a class="sign-up-pp" href="policies.html" target="_self">Privacy Policy</a></p>
+                                    </div>
+                                    <div class="col-md-10">
+                                        <button type="submit" class="btn btn5">Register</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="log-in"> 
             <form class="row g-1">
-                <div class="col-md-3">
+                <div class="col-md-12">
                     <h3>Log in</h3>
                     <label for="inputEmail4" class="form-label">Username or Email Address</label>
                     <input type="email" class="form-control" id="inputEmail4">
@@ -154,18 +176,14 @@
                     <input type="password" class="form-control" id="inputPassword4">
 
                     <button type="submit" class="btn btn5">Log in</button>
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Remember Me
+                    </label>
                 </div>
-                <!-- <div class="col-md-6"> -->
-                <!-- <label for="inputPassword4" class="form-label">Password</label> -->
-                <!-- <input type="password" class="form-control" id="inputPassword4"> -->
-                <!-- </div> -->
-               
-                <div class="col-12">
-    
-                </div>
+                <div class="col-md-12"></div>
             </form>
-        </div>
-
+        </div>-->
 
         <!-- --------------- FOOTER ---------------- -->
 
