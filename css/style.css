@@ -11,15 +11,14 @@
     color: rgb(167, 255, 226);
     display: flex;
     flex-wrap: wrap;
-    padding-left: 0;
     margin-bottom: 0;
     list-style: none;
-    padding-left: 20px;
+    padding-left: 10px;
     text-decoration: none;
     transition: .5s;
 }
 .container-fluid{
-    font-family: 'Julee', cursive;
+    font-family: 'Quicksand', sans-serif;
     letter-spacing: 2px;
 }
 .nav-link:hover{
@@ -42,7 +41,7 @@ input{
     font-size: small;
 }
 #icn1{
-    align-items: center;
+    align-items: right;
     margin-top: 5px;
 }
 #btn2{
@@ -69,7 +68,7 @@ input{
     background-color: rgb(178, 255, 229);
     color: rgb(2, 39, 27);
     padding: 6px 30px;
-    font-family: 'Julee', cursive;
+    font-family: 'Fredericka the Great', cursive;
     letter-spacing: 2px;
     margin-top: 20px;
     border-radius: 10px;
@@ -167,7 +166,7 @@ small{
     font-family: 'Fredericka the Great', cursive;
 }
 .card-text{
-    font-family: 'Julee', cursive;
+    font-family: 'Quicksand', sans-serif;
     font-size: 10px;
     color: rgb(227, 242, 237);
 }
@@ -208,16 +207,16 @@ footer{
     font-size: small;
 }
 .social-link{
-    font-size: 15px;
+    font-size: 13px;
     text-align: left;
 }
 .footer-pages{
-    font-size: 15px;
+    font-size: 12px;
     text-align: left;
     align-items: left;
 }
 .footer-links{
-    font-size: 15px;
+    font-size: 12px;
 }
 .form{
     font-size: 12px;
@@ -227,7 +226,7 @@ footer{
 }
 .newsletter{
     text-align: left;
-    font-family: 'Handlee', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 .input2{
     font-size: 12px;
@@ -237,6 +236,7 @@ footer{
     color: rgb(2, 39, 27);
     padding: 6px 8px;
     font-size: 12px;
+    font-family: 'Fredericka the Great', cursive;
     margin-top: 3px;
     border-radius: 5px;
     cursor: pointer;
@@ -250,7 +250,7 @@ footer{
     color: aquamarine;
     font-family: 'Fredericka the Great', cursive;
     text-align: left;
-    font-size: 17px;
+    font-size: 20px;
     margin-top: 15px;
     letter-spacing: 2px;
 }
