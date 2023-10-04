@@ -159,7 +159,7 @@ span{
     font-family: 'Fredericka the Great', cursive;
 }
 h5{
-    font-size: 20px;
+    font-size: 15px;
 }
 small{
     color: rgb(229, 250, 243);
@@ -170,6 +170,44 @@ small{
     font-size: 10px;
     color: rgb(227, 242, 237);
 }
+.card2{
+    background-color: rgb(0, 222, 148);
+}
+
+
+/* ------- Container here --------*/
+
+
+.text-center{
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+.text-center h4{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 25px;
+    color: rgb(217, 255, 242);
+}
+.text-center a{
+    color: rgb(151, 255, 220);
+}
+.text-center p{
+    color: rgb(217, 255, 242);
+}
+.text-center h5{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 15px;
+    color: rgb(217, 255, 242);
+}
+.bottom{
+    background-color: rgb(21, 81, 61);
+}
+.text-center2{
+    background-color: rgb(32, 64, 54);
+    color: rgb(169, 255, 226);
+}
+
+
+
 
 
 
