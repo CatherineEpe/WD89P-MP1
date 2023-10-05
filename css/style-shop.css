@@ -133,10 +133,19 @@ span{
 
 /* ---------- Catergories ----------- */
 
+.h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(209, 255, 240);
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgb(23, 67, 53);
+    padding: 10px;
+    margin: 0;
+}
 .categories{
     background-color: rgb(51, 106, 87);
     color: rgb(216, 255, 242);
-    padding: 20px;
+    padding: 30px;
 }
 .category-h4{
     font-family: 'Fredericka the Great', cursive;
@@ -158,9 +167,7 @@ span{
     transition: 0.5s;
 }
 .category-link:hover{
-    box-shadow: 20px grey;
-    border: rgb(52, 81, 72);
-    background-color: rgb(4, 78, 53);
+    transform: translateY(-5px);
 }
 
 
@@ -230,10 +237,10 @@ small{
 .text-center h5{
     font-family: 'Fredericka the Great', cursive;
     font-size: 15px;
-    color: rgb(217, 255, 242);
+    color: rgb(229, 255, 246);
 }
 .bottom{
-    background-color: rgb(21, 81, 61);
+    background-color: rgb(26, 46, 39);
 }
 
 
