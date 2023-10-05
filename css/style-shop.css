@@ -130,6 +130,41 @@ span{
     font-size: 25px;
 }
 
+
+/* ---------- Catergories ----------- */
+
+.categories{
+    background-color: rgb(51, 106, 87);
+    color: rgb(216, 255, 242);
+    padding: 20px;
+}
+.category-h4{
+    font-family: 'Fredericka the Great', cursive;
+}
+.category-images{
+    border-radius: 200px;
+}
+.h5-label{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.card3{
+    background-color: rgb(51, 106, 87);
+}
+.category-link{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.category-link:hover{
+    box-shadow: 20px grey;
+    border: rgb(52, 81, 72);
+    background-color: rgb(4, 78, 53);
+}
+
+
+
 /* --------------  Featured -------------------------- */
 
 .featured{
@@ -174,13 +209,12 @@ small{
     background-color: rgb(0, 222, 148);
 }
 
-
-/* ------- Container here --------*/
+/* ------- Bottom Info --------*/
 
 
 .text-center{
     padding-top: 30px;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 .text-center h4{
     font-family: 'Fredericka the Great', cursive;
@@ -201,13 +235,6 @@ small{
 .bottom{
     background-color: rgb(21, 81, 61);
 }
-.text-center2{
-    background-color: rgb(32, 64, 54);
-    color: rgb(169, 255, 226);
-}
-
-
-
 
 
 
