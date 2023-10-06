@@ -133,6 +133,14 @@ span{
 
 /* ---------- Catergories ----------- */
 
+.search-box{
+    padding: 20px;
+    background-color: rgb(48, 94, 78);
+    align-items: center;
+}
+.navbar-expand-lg{
+    border-radius: 10px;
+}
 .h1{
     font-family: 'Fredericka the Great', cursive;
     color: rgb(209, 255, 240);
