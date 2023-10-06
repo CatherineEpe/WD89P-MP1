@@ -1,0 +1,222 @@
+/* ------------- Home Page ------------------------ */
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: rgb(1, 34, 23);
+}
+.nav-link{ 
+    color: rgb(167, 255, 226);
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    list-style: none;
+    padding-left: 10px;
+    text-decoration: none;
+    transition: .5s;
+}
+.container-fluid{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+}
+.nav-link:hover{
+    color: rgb(76, 93, 88);
+}
+#offcanvasDarkNavbar{
+    width: 250px;
+}
+.btn{
+    background-color: rgb(97, 170, 146);
+    color: white;
+}
+.btn:hover{
+    background-color: aquamarine;
+}
+input{
+    margin: 0;
+}
+#input1{
+    font-size: small;
+}
+#icn1{
+    align-items: right;
+    margin-top: 5px;
+}
+#btn2{
+    background-color: rgb(8, 109, 76);
+    color: rgb(97, 170, 146);
+}
+#btn2:hover{
+    background-color: rgb(32, 51, 45);
+}
+#container{
+    background-color: rgb(24, 36, 32);
+    color: rgb(221, 244, 236);
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+}
+.container3{
+    color: rgb(231, 246, 241);
+    margin-left: 10%;
+}
+.btn3{
+    background-color: rgb(178, 255, 229);
+    color: rgb(2, 39, 27);
+    padding: 6px 30px;
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn3:hover{
+    background-color: transparent;
+    color: rgb(183, 255, 231);
+}
+.container p{
+    margin-top: 20px;
+}
+.col h2{
+    font-family: 'Fredericka the Great', cursive;
+}
+.h2{
+    font-family: 'Fredericka the Great', cursive;
+    color: white;
+    letter-spacing: 2px;
+}
+#grid{
+    color: rgb(209, 255, 240);
+    padding: 10px 0;
+    margin-top: 25px;
+    font-family: 'Fredericka the Great', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+}
+span{
+    font-size: 15px;
+    color: rgb(0, 215, 143);
+}
+#collage{
+    border-radius: 10px;
+    box-shadow: 60px;
+    margin-top: 5%;
+}
+#icn3{
+    font-size: 20px;
+}
+.intro{
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+#icons{
+    font-size: 10px;
+}
+#clients{
+    text-align: center;
+    align-items: center;
+}
+.row1{
+    text-align: center;
+    align-items: center;
+}
+#intro{
+    font-size: 25px;
+}
+
+/* --------------  Featured -------------------------- */
+
+
+
+
+/* ------------------- Footer --------------------------- */
+
+footer{
+    background-color: rgb(14, 26, 22);
+    padding: 20px;
+}
+#icn2{
+    align-items: center;
+    margin-top: 5px;
+    display: flex;
+    size: 60px;
+}
+#icn3{
+    size: 60px;
+}
+.nav-item2{
+    margin-top: 2px;
+}
+.col2 p{
+    color: white;
+    font-size: 10px;
+}
+.row{
+    text-align: left;
+    padding-top: 15px;
+}
+#icons{
+    margin-left: 12%;
+    margin-top: 8%;
+}
+.linklink{
+    font-size: small;
+}
+.social-link{
+    font-size: 13px;
+    text-align: left;
+}
+.footer-pages{
+    font-size: 12px;
+    text-align: left;
+    align-items: left;
+}
+.footer-links{
+    font-size: 12px;
+}
+.form{
+    font-size: 12px;
+    size: 15px;
+    color: rgb(62, 85, 77);
+    margin-top: 2px;
+}
+.newsletter{
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+.input2{
+    font-size: 12px;
+}
+.btn4{
+    background-color: rgb(178, 255, 229);
+    color: rgb(2, 39, 27);
+    padding: 6px 8px;
+    font-size: 12px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-top: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn4:hover{
+    background-color: transparent;
+    color: rgb(183, 255, 231);
+}
+.head-newsletter{
+    color: aquamarine;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+}
+.footer-elements{
+    color: rgb(224, 255, 245);
+    font-size: 12px;
+}
