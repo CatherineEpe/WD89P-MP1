@@ -182,16 +182,14 @@ span{
     color: rgb(209, 255, 240);
     letter-spacing: 2px;
     text-align: center;
-    background-color: rgb(49, 92, 78);
-    padding: 10px;
     margin: 0;
 }
 .para{
     margin: 0;
-    padding: 10px;
     background-color: rgb(66, 116, 100);
     text-align: center;
     color: rgb(230, 255, 247);
+    padding-bottom: 20px;
 }
 
 /* ------------------- Footer --------------------------- */
