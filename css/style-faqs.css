@@ -132,8 +132,67 @@ span{
 
 /*  ------- Frequently Ask Questions ------------- */
 
-
-
+.about-page{
+    background-color: rgb(49, 62, 58);
+    color: rgb(228, 255, 246);
+    padding: 30px;
+}
+.about-intro h3{
+    font-family: 'Fredericka the Great', cursive;
+    align-items: center;
+    text-align: center;
+}
+.about-intro p{
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    text-align: center;
+}
+.img1{
+    align-items: left;
+    text-align: left;
+}
+.img2{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.card{
+    background-color: rgb(58, 87, 76);
+    color: rgb(165, 236, 212);
+    padding: 20px;
+}
+#card-about{
+    color: rgb(235, 235, 235);
+    background-color: rgb(83, 91, 88);
+}
+.accordion-item{
+    background-color: rgb(51, 53, 52);
+    color: rgb(246, 246, 246);
+}
+.accordion-body{
+    background-color: rgb(44, 69, 61);
+    color: rgb(218, 220, 219);
+}
+.accordion-button{
+    background-color: rgb(31, 41, 38);
+    color: rgb(108, 255, 206);
+}
+.h1{
+    font-family: 'Fredericka the Great', cursive;
+    color: rgb(209, 255, 240);
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgb(49, 92, 78);
+    padding: 10px;
+    margin: 0;
+}
+.para{
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(66, 116, 100);
+    text-align: center;
+    color: rgb(230, 255, 247);
+}
 
 /* ------------------- Footer --------------------------- */
 
